@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Play';
+  src: url('./assets/fonts/Play-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-VariableFont_wght.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-color: #DDEBFF;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#content {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url('./assets/images/blog-background.png');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.window {
+  background: rgba(0, 0, 0, 0.85);
+  border: 15px ridge #9fadb4;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  color: #DDEBFF;
+  padding: 2px 10px;
+  box-sizing: border-box;
+}
+
+#neotribal {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  left: -35px;
+  opacity: 0.9;
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+#header {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Play', sans-serif;
+  font-size: 4em;
+  color: #151515;
+  filter: drop-shadow(0 0 10px #000000) blur(1.25px);
+  margin: 1%;
+  pointer-events: none;
+  user-select: none;
+}
+
+#navbar {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-width: 8px;
+  gap: 5px;
+}
+
+#navbar p {
+  font-family: 'Play', sans-serif;
+  font-size: 1em;
   color: white;
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+.headerButton {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.headerButton:hover {
+  background-color: #9fadb420;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.verticalSeparator {
+  height: 20px;
+  border: 1px solid #DDEBFF;
+  filter: blur(0.5px);
+}
+
+.horizontalSeparator {
+  width: 90%;
+  border: 2px solid #7879b4;
+  filter: blur(0.5px);
+}
+
+#posts-window {
+  width: 85%;
+  height: calc(100% - 100px);
+  overflow-y: scroll;
+  padding: 0 4em;
+  margin-bottom: 10px;
+}
+
+#posts-window h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+}
+
+#posts-window p,
+#posts-window span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+}
+
+.morePostsMessageContainer {
+  color: #7879b4;
+  text-align: end;
+  justify-content: end;
+  padding-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+.morePostsMessage:hover {
+  color: #9fadb4;
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  color: #7879b4;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: inline-end;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c3cbd3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b7bcc0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
   }
-  to {
-    transform: rotate(360deg);
+
+  #neotribal {
+    left: -40px;
+    opacity: 0.6;
+  }
+
+  #content {
+    gap: 10px;
+  }
+
+  #header {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #navbar {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  #posts-window {
+    width: 95%;
+    padding: 0 1em;
+  }
+
+  #posts-window h2 {
+    font-size: 2em;
+  }
+
+  #posts-window p, #posts-window span {
+    font-size: 1em;
+  }
+
+  .horizontalSeparator {
+    width: 100%;
+  }
+
+  .morePostsMessageContainer {
+    text-align: center;
+  }
+
+  button {
+    font-size: 1em;
   }
 }
