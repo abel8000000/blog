@@ -235,3 +235,7 @@ button {
     font-size: 1em;
   }
 }
+
+.postListItem:hover {
+  cursor: pointer;
+}
