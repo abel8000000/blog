@@ -1,0 +1,12 @@
+﻿## September 29
+This is my first blog entry. I really don’t know how to feel.
+
+I’ve been so excited about this blog for so many days now and all I thought about was what to write in the first entry. I even chose this date purposely; I’ll turn 18 tomorrow. It was exciting at first because adulthood seems so cool until you turn 18 tomorrow and realize that some parts of life are going to become really shitty. It’s frankly quite scary but I’m really looking forward to it at the same time, I think that it’s going to be alright at the end.
+
+I got some really bad news a couple of days ago, my dad is back in jail. I received the news September 26, and it’s funny because the first time he went to prison was on that exact day in 2018. That’s a really weird coincidence, and one that made me think a lot. I don’t really remember my childhood that much, but I do remember how I felt throughout it, I think a kid shouldn’t feel like that ever. My dad missed my 12th birthday, and now is missing my 18th birthday as well. That’s why I don’t really know how to feel right now. It’s been a really heavy couple of days for me and my family, and I’ve just been existing my way through them. I’ll legally be an adult tomorrow and all I can think about is think about how my dad always acted like a child.
+
+Life has been weird, but I never lose my love for it, aside from how things are going, I’ve been pretty happy this year so far. College is awesome, I’m living my dream thanks to my scholarship, and I met my now girlfriend, we’ve been together for half a year now. There have been some things that I struggled with, especially academically, but the good thing is that I always have someone to help me go through it. I’m really happy for how life has been treating me, and I’m really thankful for everything it’s giving me, I worked really hard for it.
+
+At the beginning of the entry I said that I didn’t know how to feel, but writing this really helped me channel my feelings. I’m actually feeling pretty alright to be honest.
+
+Life’s good.
