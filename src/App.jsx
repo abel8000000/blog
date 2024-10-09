@@ -87,7 +87,7 @@ function App() {
             {posts.length === 0 ? (
               <p>Seems empty... for now</p>
             ) : (
-              posts.map((post, index) => (
+              posts.slice().reverse().map((post, index) => (
                 <div key={index} className="postListItem" onClick={() => showPost(post)}>
                   <p>{post.key.replace('./', '').replace('.md', '')}</p>
                 </div>
@@ -105,7 +105,7 @@ function App() {
               {posts.length === 0 ? (
                 <p>Seems empty... for now</p>
               ) : (
-                posts.slice(-5).map((post, index) => ( // Display only the last 5 posts
+                posts.slice(-5).reverse().map((post, index) => ( // Display only the last 5 posts in reverse order
                   <div key={index} className="post">
                     <ReactMarkdown>{post.content}</ReactMarkdown>
                     {index < 4 && <hr className='horizontalSeparator' />} {/* Add separator after each post except the last one */}
