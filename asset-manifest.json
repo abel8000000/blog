@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.64315463.css",
-    "main.js": "/blog/static/js/main.fe47899d.js",
+    "main.js": "/blog/static/js/main.5bc5b596.js",
     "static/js/453.53abc377.chunk.js": "/blog/static/js/453.53abc377.chunk.js",
     "static/media/blog-background.png": "/blog/static/media/blog-background.bd871538e23a86b40e79.png",
     "static/media/Raleway-VariableFont_wght.ttf": "/blog/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
     "static/media/Play-Bold.ttf": "/blog/static/media/Play-Bold.b78f3be6adabf73cde7f.ttf",
     "static/media/blog-neotribal.png": "/blog/static/media/blog-neotribal.a2ff876efc98cb3a83b4.png",
-    "static/media/September 29.md": "/blog/static/media/September 29.5609cc6d9de650a1f0f6.md",
+    "static/media/2024-09-29.md": "/blog/static/media/2024-09-29.0b7ec700036dac735a5d.md",
+    "static/media/2024-10-08.md": "/blog/static/media/2024-10-08.05593bf947d8ea274919.md",
     "index.html": "/blog/index.html",
     "main.64315463.css.map": "/blog/static/css/main.64315463.css.map",
-    "main.fe47899d.js.map": "/blog/static/js/main.fe47899d.js.map",
+    "main.5bc5b596.js.map": "/blog/static/js/main.5bc5b596.js.map",
     "453.53abc377.chunk.js.map": "/blog/static/js/453.53abc377.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64315463.css",
-    "static/js/main.fe47899d.js"
+    "static/js/main.5bc5b596.js"
   ]
 }
