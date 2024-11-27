@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 const PostContent = ({ post }) => (
     <div id='about-text' className='post'>
-        <Link to="/" className="all-posts-button">
+        <Link to="#/" className="all-posts-button">
             Back to all posts
         </Link>
         <ReactMarkdown>{post.content}</ReactMarkdown>

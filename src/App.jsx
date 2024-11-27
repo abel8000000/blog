@@ -83,19 +83,19 @@ function App({ view }) {
         <div id="content">
             <img id='neotribal' src={neotribal} alt='neotribal' />
             <div id='header'>
-                <Link to="/" className='headerTitle'>
+                <Link to="#/" className='headerTitle'>
                     <h1>abel's blog</h1>
                 </Link>
                 <div id='navbar' className='window'>
-                    <Link to="/latest" className='headerButton'>
+                    <Link to="#/latest" className='headerButton'>
                         <p>latest</p>
                     </Link>
                     <hr className='verticalSeparator' aria-orientation="vertical" />
-                    <Link to="/index" className='headerButton'>
+                    <Link to="#/index" className='headerButton'>
                         <p>index</p>
                     </Link>
                     <hr className='verticalSeparator' aria-orientation="vertical" />
-                    <Link to="/about" className='headerButton'>
+                    <Link to="#/about" className='headerButton'>
                         <p>about</p>
                     </Link>
                 </div>
@@ -124,7 +124,7 @@ function App({ view }) {
                             )}
                             {posts.length > 0 && (
                                 <div className="morePostsMessageContainer">
-                                    <Link to="/index" className="morePostsMessage">Wanna see more? Check the index</Link>
+                                    <Link to="#/index" className="morePostsMessage">Wanna see more? Check the index</Link>
                                 </div>
                             )}
                         </>

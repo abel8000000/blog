@@ -8,7 +8,7 @@ const PostList = ({ posts }) => (
         ) : (
             posts.map((post, index) => (
                 <div key={index} className="post">
-                    <Link to={`/post/${post.key.replace('./', '').replace('.md', '')}`}>
+                    <Link to={`#/post/${post.key.replace('./', '').replace('.md', '')}`}>
                         <p>{post.key.replace('./', '').replace('.md', '')}</p>
                     </Link>
                 </div>
