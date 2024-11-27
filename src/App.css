@@ -251,8 +251,8 @@ h1:hover {
     text-align: center;
   }
 
-  button {
-    font-size: 1em;
+  .all-posts-button {
+    font-size: 0.8em;
   }
 }
 
