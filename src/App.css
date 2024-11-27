@@ -66,14 +66,25 @@ body {
   justify-content: space-between;
 }
 
+.headerTitle {
+  text-decoration: none;
+  /* Remove underline */
+  display: inline-block;
+  /* Ensure the title stays on one line */
+}
+
 h1 {
   font-family: 'Play', sans-serif;
   font-size: 4em;
   color: #151515;
   filter: drop-shadow(0 0 10px #000000) blur(1.25px);
-  margin: 1%;
-  pointer-events: none;
-  user-select: none;
+  margin: 5% 0;
+  transition: text-shadow 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+
+h1:hover {
+  text-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 9px #ffffff;
 }
 
 #navbar {
@@ -100,6 +111,8 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 0px 5px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .headerButton:hover {
@@ -147,12 +160,17 @@ h1 {
   margin-bottom: 2em;
 }
 
+.morePostsMessage {
+  text-decoration: none;
+  color: inherit;
+}
+
 .morePostsMessage:hover {
   color: #9fadb4;
   cursor: pointer;
 }
 
-button {
+.all-posts-button {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   color: #7879b4;
@@ -186,6 +204,7 @@ button {
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5em;
+    margin: 0;
   }
 
   #neotribal {
@@ -219,7 +238,8 @@ button {
     font-size: 2em;
   }
 
-  #posts-window p, #posts-window span {
+  #posts-window p,
+  #posts-window span {
     font-size: 1em;
   }
 
